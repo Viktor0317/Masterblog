@@ -10,11 +10,5 @@
         "author": "Jane Doe",
         "title": "Top 5 Rock Albums of All Time",
         "content": "From Led Zeppelin IV to The Dark Side of the Moon, these albums have defined rock music history."
-    },
-    {
-        "id": 3,
-        "author": "Nikola",
-        "title": "test",
-        "content": "test333"
     }
 ]
