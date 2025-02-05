@@ -1,0 +1,52 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Blog Header */
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Blog Container */
+.blog-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Individual Blog Post */
+.blog-post {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Blog Post Title */
+.blog-post h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Author Styling */
+.blog-post p strong {
+    color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .blog-container {
+        width: 90%;
+    }
+}
