@@ -13,50 +13,8 @@
     },
     {
         "id": 3,
-        "author": "Alex Smith",
-        "title": "How Classical Music Boosts Productivity",
-        "content": "Studies show that listening to classical music can enhance focus and creativity while working or studying."
-    },
-    {
-        "id": 4,
-        "author": "Emma Johnson",
-        "title": "The Evolution of Hip-Hop",
-        "content": "From the Bronx in the 1970s to global dominance, hip-hop has become a voice for generations."
-    },
-    {
-        "id": 5,
-        "author": "Michael Brown",
-        "title": "The Rise of Indie Music",
-        "content": "Independent artists are changing the music industry, proving that talent and dedication matter more than labels."
-    },
-    {
-        "id": 6,
-        "author": "Sophia White",
-        "title": "Why Vinyl Records are Making a Comeback",
-        "content": "Vinyl records are back in style, bringing warmth and nostalgia to modern music lovers."
-    },
-    {
-        "id": 7,
-        "author": "Daniel Lee",
-        "title": "The Science Behind Music and Emotions",
-        "content": "Discover how different music genres affect our mood and emotions on a psychological level."
-    },
-    {
-        "id": 8,
-        "author": "Olivia Martin",
-        "title": "How to Learn an Instrument as an Adult",
-        "content": "It\u2019s never too late to pick up an instrument! Here are some tips to get started with ease."
-    },
-    {
-        "id": 9,
-        "author": "William Clark",
-        "title": "Electronic Music: The Future of Sound",
-        "content": "From synthesizers to AI-generated beats, electronic music is pushing the boundaries of sound."
-    },
-    {
-        "id": 10,
-        "author": "Emily Adams",
-        "title": "Best Music Festivals Around the World",
-        "content": "From Coachella to Tomorrowland, these festivals offer unforgettable musical experiences."
+        "author": "Nikola",
+        "title": "test",
+        "content": "test333"
     }
 ]

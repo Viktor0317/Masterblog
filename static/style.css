@@ -88,6 +88,23 @@ h1 {
     border: none;
 }
 
+/* Update Button Styling */
+.update-btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #ffc107;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.update-btn:hover {
+    background-color: #e0a800;
+}
+
 /* Form Styling (Only for Full-Page Forms) */
 .form-container {
     max-width: 500px;
@@ -131,8 +148,8 @@ h1 {
     background-color: #0056b3;
 }
 
-/* Back to Home Link */
-a.back-home {
+/* Back to Home Button */
+.back-home {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 15px;
@@ -143,7 +160,7 @@ a.back-home {
     transition: background 0.3s ease-in-out;
 }
 
-a.back-home:hover {
+.back-home:hover {
     background-color: #5a6268;
 }
 
