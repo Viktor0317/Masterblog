@@ -21,30 +21,40 @@ def save_posts(posts):
 
 @app.route('/')
 def index():
-    blog_posts = load_posts()  # Load posts from JSON
+    blog_posts = load_posts()
     return render_template('index.html', posts=blog_posts)
 
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
     if request.method == 'POST':
-        blog_posts = load_posts()  # Load current posts
+        blog_posts = load_posts()
 
-        # Get form data
         new_post = {
-            "id": max(post["id"] for post in blog_posts) + 1 if blog_posts else 1,  # Generate unique ID
+            "id": max(post["id"] for post in blog_posts) + 1 if blog_posts else 1,
             "author": request.form.get("author"),
             "title": request.form.get("title"),
             "content": request.form.get("content")
         }
 
-        # Append new post and save
         blog_posts.append(new_post)
         save_posts(blog_posts)
 
-        return redirect(url_for('index'))  # Redirect to home page
+        return redirect(url_for('index'))
 
-    return render_template('add.html')  # Render the add post form
+    return render_template('add.html')
+
+
+@app.route('/delete/<int:post_id>', methods=['POST'])
+def delete(post_id):
+    blog_posts = load_posts()
+
+    # Filter out the post with the given ID
+    blog_posts = [post for post in blog_posts if post["id"] != post_id]
+
+    save_posts(blog_posts)  # Save the updated list
+
+    return redirect(url_for('index'))
 
 
 if __name__ == '__main__':

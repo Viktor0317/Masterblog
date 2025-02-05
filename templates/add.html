@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Add a New Blog Post</h1>
-    <form action="{{ url_for('add') }}" method="POST">
+    <form action="{{ url_for('add') }}" method="POST" class="form-container">
         <label for="author">Author:</label>
         <input type="text" id="author" name="author" required>
 
@@ -22,6 +22,6 @@
     </form>
 
     <br>
-    <a href="{{ url_for('index') }}">Back to Home</a>
+    <a href="{{ url_for('index') }}" class="back-home">Back to Home</a>
 </body>
 </html>

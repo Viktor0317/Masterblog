@@ -21,7 +21,7 @@ h1 {
     display: inline-block;
     margin: 15px;
     padding: 12px 20px;
-    background-color: #28a745;
+    background-color: #5a9f68;
     color: white;
     font-size: 16px;
     text-decoration: none;
@@ -61,8 +61,35 @@ h1 {
     color: #555;
 }
 
-/* Form Styling */
-form {
+/* Delete Button Styling (No Extra Box) */
+.delete-btn {
+    background-color: #d5525f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    transition: background 0.3s ease-in-out;
+    outline: none;
+    box-shadow: none;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Ensure Delete Button Form Does Not Affect Styling */
+.delete-form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Form Styling (Only for Full-Page Forms) */
+.form-container {
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
@@ -72,13 +99,14 @@ form {
     text-align: left;
 }
 
-form label {
+.form-container label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
 }
 
-form input, form textarea {
+.form-container input,
+.form-container textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -87,7 +115,7 @@ form input, form textarea {
     font-size: 14px;
 }
 
-form button {
+.form-container button {
     margin-top: 15px;
     padding: 12px 18px;
     background-color: #007bff;
@@ -99,7 +127,7 @@ form button {
     transition: background 0.3s ease-in-out;
 }
 
-form button:hover {
+.form-container button:hover {
     background-color: #0056b3;
 }
 
@@ -121,7 +149,7 @@ a.back-home:hover {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .blog-container, form {
+    .blog-container, .form-container {
         width: 90%;
     }
 }
