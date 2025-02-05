@@ -2,6 +2,8 @@
 
 A simple blog application built using **Flask**, allowing users to **create, update, delete, and view** blog posts. Posts are stored in a **JSON file** instead of a database.
 
+This is a project created as part of the Masterschool curriculum.
+
 ---
 
 ## Features
@@ -76,6 +78,12 @@ Open `http://127.0.0.1:5001/`
 
 ## 📝 License
 This project is **free to use** and open-source. Feel free to contribute!  
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to Masterschool for providing the guidance and resources for this project.
 
 ---
 
