@@ -45,7 +45,7 @@
         "id": 8,
         "author": "Olivia Martin",
         "title": "How to Learn an Instrument as an Adult",
-        "content": "It’s never too late to pick up an instrument! Here are some tips to get started with ease."
+        "content": "It\u2019s never too late to pick up an instrument! Here are some tips to get started with ease."
     },
     {
         "id": 9,
@@ -58,5 +58,11 @@
         "author": "Emily Adams",
         "title": "Best Music Festivals Around the World",
         "content": "From Coachella to Tomorrowland, these festivals offer unforgettable musical experiences."
+    },
+    {
+        "id": 11,
+        "author": "Nikola",
+        "title": "Brajkovic",
+        "content": "Testing add function"
     }
 ]
